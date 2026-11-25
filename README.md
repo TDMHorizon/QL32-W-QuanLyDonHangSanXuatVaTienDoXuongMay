@@ -36,6 +36,11 @@ Công thức năng suất: [VTI Solutions](https://vti-solutions.vn/cong-thuc-ti
 
 Xem [`00-ke-hoach/PHAN-CONG-BE-FE-FULL.md`](00-ke-hoach/PHAN-CONG-BE-FE-FULL.md).
 
+## Theo dõi công việc (Jira)
+
+- Project Scrum: **TBK Scrum** (`TS`) trên Atlassian.
+- Commit / branch / PR phải chứa key dạng `TS-…` để Development panel nhận repo và liên kết issue.
+
 ## Lưu ý
 
 - Stack FE/BE/DB chi tiết còn bàn (Q10) — không chặn phạm vi.
