@@ -18,6 +18,7 @@
 | 2 | Công thức năng suất lao động (nền tảng NS = đầu ra / giờ công; may mặc; đạt chuẩn) | https://vti-solutions.vn/cong-thuc-tinh-nang-suat-lao-dong/ | Áp dụng → NS chuyền, NS đơn, hiệu suất định mức trong Cổng 0 |
 | 3 | CommandCode Provider API / API Keys / CLI | https://commandcode.ai/docs/provider · https://commandcode.ai/docs/studio · https://commandcode.ai/docs/quickstart · https://commandcode.ai/docs/headless | Chatbot LLM |
 | 4 | Cấu trúc tài liệu mẫu ĐACS (cách tổ chức thư mục đặc tả) | `D:\QTCuaTruc\DuAn\File MauDoDan\892818388Bieu mau Do an Co so\Bieu mau Do an Co so` | Tham chiếu quy trình viết tài liệu, không copy đề ĐACS |
+| 5 | Mô hình phân nhánh GitFlow (`main`, `develop`, `feature`, `release`, `hotfix`) | https://nvie.com/posts/a-successful-git-branching-model/ · https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow | Áp dụng gắn mã Jira & tag `v0.1/v0.2/v1.0` trong `00-ke-hoach/QUY-UOC-GITFLOW.md` |
 
 ## File liên quan trong repo
 

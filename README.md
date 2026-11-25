@@ -32,9 +32,10 @@ Mọi tham khảo bên ngoài **phải có link nguồn** — xem [`99-tham-chie
 
 Công thức năng suất: [VTI Solutions](https://vti-solutions.vn/cong-thuc-tinh-nang-suat-lao-dong/).
 
-## Phân công
+## Phân công & Quy ước GitHub (GitFlow)
 
-Xem [`00-ke-hoach/PHAN-CONG-BE-FE-FULL.md`](00-ke-hoach/PHAN-CONG-BE-FE-FULL.md).
+- Phân công vai trò kỹ thuật: [`00-ke-hoach/PHAN-CONG-BE-FE-FULL.md`](00-ke-hoach/PHAN-CONG-BE-FE-FULL.md)
+- Quy ước nhánh GitFlow (`main`, `develop`, `feature/*`, `release/*`, `hotfix/*` & tag `v0.1/v0.2/v1.0`): [`00-ke-hoach/QUY-UOC-GITFLOW.md`](00-ke-hoach/QUY-UOC-GITFLOW.md)
 
 ## Theo dõi công việc (Jira)
 

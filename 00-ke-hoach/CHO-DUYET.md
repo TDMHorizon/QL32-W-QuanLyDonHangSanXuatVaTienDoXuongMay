@@ -28,9 +28,10 @@ Tick khi cả nhóm thống nhất. Nguồn sự thật: `THONG-TIN-NGHIEP-VU.md
 - [ ] Công thức NS đã ghi nguồn [VTI Solutions](https://vti-solutions.vn/cong-thuc-tinh-nang-suat-lao-dong/)
 - [ ] Mọi tham khảo ngoài đều có link trong file tương ứng / `99-tham-chieu/nguon-tham-khao.md`
 
-## Phân công
+## Phân công & GitFlow
 - [ ] FE / BE / FULL hiểu epic E1–E10 và artifact bàn giao
-- [ ] Q10 stack: đã chốt **hoặc** thống nhất FULL đề xuất trước Sprint 1
+- [ ] Cả nhóm nắm quy ước nhánh `QUY-UOC-GITFLOW.md` (`main`, `develop`, `feature/*`, `release/*`, `hotfix/*` + gắn mã Jira)
+- [ ] Q10 stack: Node.js / TypeScript đã định hướng — chốt chi tiết framework con trước Sprint 1
 
 ## Ký duyệt (ghi tên)
 | Vai | Tên | Ngày | Đồng ý |
