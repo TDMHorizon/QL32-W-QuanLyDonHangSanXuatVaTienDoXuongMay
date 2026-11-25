@@ -1,0 +1,77 @@
+# =====================================================================
+# Chuẩn GitHub .gitignore cho ngôn ngữ Node.js / TypeScript (FE + BE)
+# + Chặn khóa bí mật (.env), file tạm Hệ điều hành / IDE & file nháp
+# =====================================================================
+
+# 1. Biến môi trường & Khóa bí mật (TUYỆT ĐỐI KHÔNG PUSH LÊN GITHUB)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# 2. Thư viện cài đặt của Node.js (nặng hàng trăm MB — ai clone về tự chạy npm install)
+node_modules/
+jspm_packages/
+bower_components/
+
+# 3. Thư mục kết quả Build / Biên dịch (tự sinh lại khi chạy npm run build)
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.vercel/
+.netlify/
+*.tsbuildinfo
+
+# 4. Cache của trình quản lý gói, Test coverage & Bundler
+.npm/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.turbo/
+.vite/
+.cache/
+coverage/
+*.lcov
+.nyc_output/
+
+# 5. Logs chạy ứng dụng & lỗi crash
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 6. Cơ sở dữ liệu nháp local (SQLite dev nếu có)
+*.sqlite
+*.sqlite3
+*.db
+
+# 7. Cấu hình cá nhân của IDE / Trình soạn thảo (mỗi máy thành viên khác nhau)
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 8. File rác của Hệ điều hành (Windows / macOS) & File tạm Office
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.bak
+
+# 9. File bóc tách nháp & tài liệu PDF đề gốc chỉ lưu local / Drive nhóm
+_pdf_extract.txt
+BM01a - De bai do an QLDA CNTT (MAN104) v1.pdf
